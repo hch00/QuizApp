@@ -1,0 +1,40 @@
+h1
+{
+	text-align: center;
+}
+.start
+{
+	cursor: pointer;
+}
+.startDiv, .stats
+{
+	text-align: center;
+}
+.choices
+{
+	list-style: none;
+}
+.choice1, .choice2 , .choice3 , .choice4
+{
+	border: 1px solid black;
+	width: 200px;
+	height: 50px;
+	background-color: blue;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	margin: auto;
+	margin-bottom: 20px;
+}
+h2
+{
+	text-align: center;
+}
+*
+{
+	box-sizing: border-box;
+}
+.hidden
+{
+	display: none;
+}

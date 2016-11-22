@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz App</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<h1>Quiz App</h1>
+	<div class="startDiv">
+		<button class="start">Start Game</button>
+	</div>
+	<div class="questionBox hidden">
+		<div class="questionContent">
+			<h2 class="question">5+5?</h2>
+			<ul class="choices">
+				<li class="choice choice1">1</li>
+				<li class="choice choice2">2</li>
+				<li class="choice choice3">3</li>
+				<li class="choice choice4">4</li>
+			</ul>
+		</div>
+		<div class="stats">
+			<h3 class="currentQuestion">1 out of 7</h3>
+			<h3 class="counter">0 incorrect, 0 correct</h3>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
